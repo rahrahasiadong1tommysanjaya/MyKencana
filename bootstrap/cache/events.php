@@ -14,6 +14,9 @@
   'Modules\\MasterCusSup\\Providers\\EventServiceProvider' => 
   array (
   ),
+  'Modules\\MasterGg\\Providers\\EventServiceProvider' => 
+  array (
+  ),
   'Modules\\MasterJenisBarang\\Providers\\EventServiceProvider' => 
   array (
   ),

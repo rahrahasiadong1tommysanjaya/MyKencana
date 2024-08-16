@@ -167,6 +167,10 @@ class ComposerStaticInit968f73bcf5520ee401d641d0d79555ec
             'Modules\\MasterJenisBarang\\Database\\Seeders\\' => 43,
             'Modules\\MasterJenisBarang\\Database\\Factories\\' => 45,
             'Modules\\MasterJenisBarang\\' => 26,
+            'Modules\\MasterGg\\Tests\\' => 23,
+            'Modules\\MasterGg\\Database\\Seeders\\' => 34,
+            'Modules\\MasterGg\\Database\\Factories\\' => 36,
+            'Modules\\MasterGg\\' => 17,
             'Modules\\MasterCusSup\\Tests\\' => 27,
             'Modules\\MasterCusSup\\Database\\Seeders\\' => 38,
             'Modules\\MasterCusSup\\Database\\Factories\\' => 40,
@@ -595,6 +599,22 @@ class ComposerStaticInit968f73bcf5520ee401d641d0d79555ec
         'Modules\\MasterJenisBarang\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Modules/MasterJenisBarang/app',
+        ),
+        'Modules\\MasterGg\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Modules/MasterGg/tests',
+        ),
+        'Modules\\MasterGg\\Database\\Seeders\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Modules/MasterGg/database/seeders',
+        ),
+        'Modules\\MasterGg\\Database\\Factories\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Modules/MasterGg/database/factories',
+        ),
+        'Modules\\MasterGg\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Modules/MasterGg/app',
         ),
         'Modules\\MasterCusSup\\Tests\\' => 
         array (
@@ -4199,6 +4219,11 @@ class ComposerStaticInit968f73bcf5520ee401d641d0d79555ec
         'Modules\\MasterCusSup\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/Modules/MasterCusSup/app/Providers/EventServiceProvider.php',
         'Modules\\MasterCusSup\\Providers\\MasterCusSupServiceProvider' => __DIR__ . '/../..' . '/Modules/MasterCusSup/app/Providers/MasterCusSupServiceProvider.php',
         'Modules\\MasterCusSup\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/Modules/MasterCusSup/app/Providers/RouteServiceProvider.php',
+        'Modules\\MasterGg\\Database\\Seeders\\MasterGgDatabaseSeeder' => __DIR__ . '/../..' . '/Modules/MasterGg/database/seeders/MasterGgDatabaseSeeder.php',
+        'Modules\\MasterGg\\Http\\Controllers\\MasterGgController' => __DIR__ . '/../..' . '/Modules/MasterGg/app/Http/Controllers/MasterGgController.php',
+        'Modules\\MasterGg\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/Modules/MasterGg/app/Providers/EventServiceProvider.php',
+        'Modules\\MasterGg\\Providers\\MasterGgServiceProvider' => __DIR__ . '/../..' . '/Modules/MasterGg/app/Providers/MasterGgServiceProvider.php',
+        'Modules\\MasterGg\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/Modules/MasterGg/app/Providers/RouteServiceProvider.php',
         'Modules\\MasterJenisBarang\\Database\\Seeders\\MasterJenisBarangDatabaseSeeder' => __DIR__ . '/../..' . '/Modules/MasterJenisBarang/database/seeders/MasterJenisBarangDatabaseSeeder.php',
         'Modules\\MasterJenisBarang\\Http\\Controllers\\MasterJenisBarangController' => __DIR__ . '/../..' . '/Modules/MasterJenisBarang/app/Http/Controllers/MasterJenisBarangController.php',
         'Modules\\MasterJenisBarang\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/Modules/MasterJenisBarang/app/Providers/EventServiceProvider.php',

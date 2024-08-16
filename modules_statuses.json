@@ -6,5 +6,6 @@
     "MasterBarang": true,
     "MasterCusSup": true,
     "MasterJenisBarang": true,
-    "Order": true
+    "Order": true,
+    "MasterGg": true
 }

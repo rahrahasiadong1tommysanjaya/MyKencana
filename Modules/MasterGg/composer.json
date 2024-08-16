@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/mastergg",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MasterGg\\": "app/",
+            "Modules\\MasterGg\\Database\\Factories\\": "database/factories/",
+            "Modules\\MasterGg\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MasterGg\\Tests\\": "tests/"
+        }
+    }
+}

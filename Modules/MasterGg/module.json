@@ -1,0 +1,11 @@
+{
+    "name": "MasterGg",
+    "alias": "mastergg",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MasterGg\\Providers\\MasterGgServiceProvider"
+    ],
+    "files": []
+}
