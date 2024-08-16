@@ -1,0 +1,11 @@
+{
+    "name": "MasterJenisBarang",
+    "alias": "masterjenisbarang",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MasterJenisBarang\\Providers\\MasterJenisBarangServiceProvider"
+    ],
+    "files": []
+}

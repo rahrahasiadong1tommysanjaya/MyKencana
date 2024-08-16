@@ -1,0 +1,11 @@
+{
+    "name": "MasterBarang",
+    "alias": "masterbarang",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MasterBarang\\Providers\\MasterBarangServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,69 @@
+[
+    {
+        "menu": [
+            {
+                "id": 1,
+                "menu": "Dashboard",
+                "slug": "dashboard",
+                "parent_id": null,
+                "url": "dashboard",
+                "icon": "menu-icon tf-icons ti ti-smart-home"
+            },
+            {
+                "id": 2,
+                "menu": "Master",
+                "slug": "master",
+                "parent_id": null,
+                "url": "#",
+                "icon": "menu-icon tf-icons ti ti-database",
+                "submenu": [
+                    {
+                        "id": 6,
+                        "menu": "Jenis Barang",
+                        "slug": "master-jenisbarang",
+                        "parent_id": 2,
+                        "url": "masterjenisbarang"
+                    },
+                    {
+                        "id": 3,
+                        "menu": "Customers & Supplier",
+                        "slug": "master-cussup",
+                        "parent_id": 2,
+                        "url": "mastercussup"
+                    },
+                    {
+                        "id": 4,
+                        "menu": "Users",
+                        "slug": "master-users",
+                        "parent_id": 2,
+                        "url": "masterusers"
+                    },
+                    {
+                        "id": 5,
+                        "menu": "Barang",
+                        "slug": "master-barang",
+                        "parent_id": 2,
+                        "url": "masterbarang"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "menu": "Transaksi",
+                "slug": "transaksi",
+                "parent_id": null,
+                "url": "#",
+                "icon": "menu-icon tf-icons ti ti-garden-cart",
+                "submenu": [
+                    {
+                        "id": 8,
+                        "menu": "Order",
+                        "slug": "order",
+                        "parent_id": 7,
+                        "url": "order"
+                    }
+                ]
+            }
+        ]
+    }
+]

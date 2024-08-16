@@ -1,0 +1,10 @@
+{
+    "Dashboard": true,
+    "BackupDatabase": true,
+    "MasterUsers": true,
+    "MasterMenu": true,
+    "MasterBarang": true,
+    "MasterCusSup": true,
+    "MasterJenisBarang": true,
+    "Order": true
+}

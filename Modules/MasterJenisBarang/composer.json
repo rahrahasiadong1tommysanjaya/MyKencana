@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/masterjenisbarang",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MasterJenisBarang\\": "app/",
+            "Modules\\MasterJenisBarang\\Database\\Factories\\": "database/factories/",
+            "Modules\\MasterJenisBarang\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MasterJenisBarang\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/mastercussup",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MasterCusSup\\": "app/",
+            "Modules\\MasterCusSup\\Database\\Factories\\": "database/factories/",
+            "Modules\\MasterCusSup\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MasterCusSup\\Tests\\": "tests/"
+        }
+    }
+}

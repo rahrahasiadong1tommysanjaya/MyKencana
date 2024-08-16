@@ -1,0 +1,11 @@
+{
+    "name": "MasterMenu",
+    "alias": "mastermenu",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MasterMenu\\Providers\\MasterMenuServiceProvider"
+    ],
+    "files": []
+}

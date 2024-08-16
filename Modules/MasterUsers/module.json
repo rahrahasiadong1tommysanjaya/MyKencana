@@ -1,0 +1,11 @@
+{
+    "name": "MasterUsers",
+    "alias": "masterusers",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MasterUsers\\Providers\\MasterUsersServiceProvider"
+    ],
+    "files": []
+}

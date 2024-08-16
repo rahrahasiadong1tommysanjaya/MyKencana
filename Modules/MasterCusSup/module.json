@@ -1,0 +1,11 @@
+{
+    "name": "MasterCusSup",
+    "alias": "mastercussup",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MasterCusSup\\Providers\\MasterCusSupServiceProvider"
+    ],
+    "files": []
+}
