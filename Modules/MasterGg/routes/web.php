@@ -14,6 +14,26 @@ use Modules\MasterGg\Http\Controllers\MasterGgController;
 |
 */
 
-Route::group([], function () {
-    Route::resource('mastergg', MasterGgController::class)->names('mastergg');
+
+
+
+Route::group(['middleware' => ['auth']], function () {
+  Route::prefix('mastergg')->group(function () {
+      Route::group(['middleware' => ['permission:view-master-gg']], function () {
+          Route::get('/', [MasterGgController::class, 'index'])->name('master-gg');
+          Route::get('/show', [MasterGgController::class, 'show'])->name('master-gg-show');
+      });
+
+      Route::group(['middleware' => ['permission:create-master-gg']], function () {
+          Route::post('/store', [MasterGgController::class, 'store'])->name('master-gg-store');
+      });
+
+      Route::group(['middleware' => ['permission:edit-master-gg']], function () {
+          Route::post('/update', [MasterGgController::class, 'update'])->name('master-gg-update');
+      });
+
+      Route::group(['middleware' => ['permission:delete-master-gg']], function () {
+          Route::delete('/destroy/{id}', [MasterGgController::class, 'destroy'])->name('master-gg-destroy');
+      });
+  });
 });

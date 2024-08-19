@@ -32,7 +32,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::AvVmdOVBMmHKtCZh',
+            '_route' => 'generated::QNhjsZ2GdLq7WQa2',
           ),
           1 => NULL,
           2 => 
@@ -52,7 +52,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::tLwRVERAFY5WK1Eo',
+            '_route' => 'generated::ng8dBoFa8PJXTtoy',
           ),
           1 => NULL,
           2 => 
@@ -149,7 +149,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::tWAS1d4jWBAApjwj',
+            '_route' => 'generated::59iHFlxwuQ9YgQT2',
           ),
           1 => NULL,
           2 => 
@@ -761,7 +761,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'mastergg.index',
+            '_route' => 'master-gg',
           ),
           1 => NULL,
           2 => 
@@ -774,11 +774,34 @@ app('router')->setCompiledRoutes(
           5 => false,
           6 => NULL,
         ),
-        1 => 
+      ),
+      '/mastergg/show' => 
+      array (
+        0 => 
         array (
           0 => 
           array (
-            '_route' => 'mastergg.store',
+            '_route' => 'master-gg-show',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/mastergg/store' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'master-gg-store',
           ),
           1 => NULL,
           2 => 
@@ -791,19 +814,18 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/mastergg/create' => 
+      '/mastergg/update' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'mastergg.create',
+            '_route' => 'master-gg-update',
           ),
           1 => NULL,
           2 => 
           array (
-            'GET' => 0,
-            'HEAD' => 1,
+            'POST' => 0,
           ),
           3 => NULL,
           4 => false,
@@ -1346,7 +1368,7 @@ app('router')->setCompiledRoutes(
     ),
     2 => 
     array (
-      0 => '{^(?|/livewire/preview\\-file/([^/]++)(*:39)|/api/v1/(?|backupdatabase/([^/]++)(?|(*:83))|dashboard/([^/]++)(?|(*:112))|master(?|barang/([^/]++)(?|(*:148))|cussup/([^/]++)(?|(*:175))|gg/([^/]++)(?|(*:198))|jenisbarang/([^/]++)(?|(*:230))|menu/([^/]++)(?|(*:255))|users/([^/]++)(?|(*:281)))|order/([^/]++)(?|(*:308)))|/master(?|barang/(?|edit/([^/]++)(*:351)|destroy/([^/]++)(*:375))|cussup/(?|edit/([^/]++)(*:407)|destroy/([^/]++)(*:431))|gg/([^/]++)(?|(*:454)|/edit(*:467)|(*:475))|jenisbarang/destroy/([^/]++)(*:512)|menu/([^/]++)(?|(*:536)|/edit(*:549)|(*:557))|users/(?|edit/([^/]++)(*:588)|destroy/([^/]++)(*:612)|menu/(?|([^/]++)(*:636)|getList(?|Permission(?|/([^/]++)(*:676)|User/([^/]++)/([^/]++)(*:706))|Menu/([^/]++)(*:728)|menuUser/([^/]++)(*:753))|update(?|MenuPermission/([^/]++)(*:794)|SortMenu/([^/]++)(*:819))|storeMenuPermission(*:847)|destrouMenuByUser/([^/]++)/([^/]++)(*:890))))|/order/(?|edit/([^/]++)(*:924)|destroy(?|Detail/([^/]++)(*:957)|/([^/]++)(*:974))))/?$}sDu',
+      0 => '{^(?|/livewire/preview\\-file/([^/]++)(*:39)|/api/v1/(?|backupdatabase/([^/]++)(?|(*:83))|dashboard/([^/]++)(?|(*:112))|master(?|barang/([^/]++)(?|(*:148))|cussup/([^/]++)(?|(*:175))|gg/([^/]++)(?|(*:198))|jenisbarang/([^/]++)(?|(*:230))|menu/([^/]++)(?|(*:255))|users/([^/]++)(?|(*:281)))|order/([^/]++)(?|(*:308)))|/master(?|barang/(?|edit/([^/]++)(*:351)|destroy/([^/]++)(*:375))|cussup/(?|edit/([^/]++)(*:407)|destroy/([^/]++)(*:431))|gg/destroy/([^/]++)(*:459)|jenisbarang/destroy/([^/]++)(*:495)|menu/([^/]++)(?|(*:519)|/edit(*:532)|(*:540))|users/(?|edit/([^/]++)(*:571)|destroy/([^/]++)(*:595)|menu/(?|([^/]++)(*:619)|getList(?|Permission(?|/([^/]++)(*:659)|User/([^/]++)/([^/]++)(*:689))|Menu/([^/]++)(*:711)|menuUser/([^/]++)(*:736))|update(?|MenuPermission/([^/]++)(*:777)|SortMenu/([^/]++)(*:802))|storeMenuPermission(*:830)|destrouMenuByUser/([^/]++)/([^/]++)(*:873))))|/order/(?|edit/([^/]++)(*:907)|destroy(?|Detail/([^/]++)(*:940)|/([^/]++)(*:957))))/?$}sDu',
     ),
     3 => 
     array (
@@ -2021,83 +2043,17 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      454 => 
+      459 => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'mastergg.show',
+            '_route' => 'master-gg-destroy',
           ),
           1 => 
           array (
-            0 => 'mastergg',
-          ),
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => true,
-          6 => NULL,
-        ),
-      ),
-      467 => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'mastergg.edit',
-          ),
-          1 => 
-          array (
-            0 => 'mastergg',
-          ),
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      475 => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'mastergg.update',
-          ),
-          1 => 
-          array (
-            0 => 'mastergg',
-          ),
-          2 => 
-          array (
-            'PUT' => 0,
-            'PATCH' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => true,
-          6 => NULL,
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'mastergg.destroy',
-          ),
-          1 => 
-          array (
-            0 => 'mastergg',
+            0 => 'id',
           ),
           2 => 
           array (
@@ -2109,7 +2065,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      512 => 
+      495 => 
       array (
         0 => 
         array (
@@ -2131,7 +2087,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      536 => 
+      519 => 
       array (
         0 => 
         array (
@@ -2154,7 +2110,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      549 => 
+      532 => 
       array (
         0 => 
         array (
@@ -2177,7 +2133,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      557 => 
+      540 => 
       array (
         0 => 
         array (
@@ -2219,7 +2175,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      588 => 
+      571 => 
       array (
         0 => 
         array (
@@ -2242,7 +2198,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      612 => 
+      595 => 
       array (
         0 => 
         array (
@@ -2264,7 +2220,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      636 => 
+      619 => 
       array (
         0 => 
         array (
@@ -2287,7 +2243,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      676 => 
+      659 => 
       array (
         0 => 
         array (
@@ -2310,7 +2266,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      706 => 
+      689 => 
       array (
         0 => 
         array (
@@ -2334,7 +2290,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      728 => 
+      711 => 
       array (
         0 => 
         array (
@@ -2357,7 +2313,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      753 => 
+      736 => 
       array (
         0 => 
         array (
@@ -2380,7 +2336,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      794 => 
+      777 => 
       array (
         0 => 
         array (
@@ -2402,7 +2358,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      819 => 
+      802 => 
       array (
         0 => 
         array (
@@ -2424,7 +2380,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      847 => 
+      830 => 
       array (
         0 => 
         array (
@@ -2445,7 +2401,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      890 => 
+      873 => 
       array (
         0 => 
         array (
@@ -2468,7 +2424,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      924 => 
+      907 => 
       array (
         0 => 
         array (
@@ -2491,7 +2447,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      957 => 
+      940 => 
       array (
         0 => 
         array (
@@ -2513,7 +2469,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      974 => 
+      957 => 
       array (
         0 => 
         array (
@@ -2581,7 +2537,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::AvVmdOVBMmHKtCZh' => 
+    'generated::QNhjsZ2GdLq7WQa2' => 
     array (
       'methods' => 
       array (
@@ -2593,7 +2549,7 @@ app('router')->setCompiledRoutes(
       array (
         'uses' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@returnJavaScriptAsFile',
         'controller' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@returnJavaScriptAsFile',
-        'as' => 'generated::AvVmdOVBMmHKtCZh',
+        'as' => 'generated::QNhjsZ2GdLq7WQa2',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2609,7 +2565,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::tLwRVERAFY5WK1Eo' => 
+    'generated::ng8dBoFa8PJXTtoy' => 
     array (
       'methods' => 
       array (
@@ -2621,7 +2577,7 @@ app('router')->setCompiledRoutes(
       array (
         'uses' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@maps',
         'controller' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@maps',
-        'as' => 'generated::tLwRVERAFY5WK1Eo',
+        'as' => 'generated::ng8dBoFa8PJXTtoy',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2801,7 +2757,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::tWAS1d4jWBAApjwj' => 
+    'generated::59iHFlxwuQ9YgQT2' => 
     array (
       'methods' => 
       array (
@@ -2819,8 +2775,8 @@ app('router')->setCompiledRoutes(
                     \\Illuminate\\Support\\Facades\\Event::dispatch(new \\Illuminate\\Foundation\\Events\\DiagnosingHealth);
 
                     return \\Illuminate\\Support\\Facades\\View::file(\'D:\\\\project-web\\\\MyKencana\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Configuration\'.\'/../resources/health-up.blade.php\');
-                }";s:5:"scope";s:54:"Illuminate\\Foundation\\Configuration\\ApplicationBuilder";s:4:"this";N;s:4:"self";s:32:"0000000000000f8b0000000000000000";}}',
-        'as' => 'generated::tWAS1d4jWBAApjwj',
+                }";s:5:"scope";s:54:"Illuminate\\Foundation\\Configuration\\ApplicationBuilder";s:4:"this";N;s:4:"self";s:32:"0000000000000f8c0000000000000000";}}',
+        'as' => 'generated::59iHFlxwuQ9YgQT2',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4725,7 +4681,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'mastergg.index' => 
+    'master-gg' => 
     array (
       'methods' => 
       array (
@@ -4738,15 +4694,17 @@ app('router')->setCompiledRoutes(
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'auth',
+          2 => 'permission:view-master-gg',
         ),
-        'as' => 'mastergg.index',
         'uses' => 'Modules\\MasterGg\\Http\\Controllers\\MasterGgController@index',
         'controller' => 'Modules\\MasterGg\\Http\\Controllers\\MasterGgController@index',
         'namespace' => NULL,
-        'prefix' => '',
+        'prefix' => '/mastergg',
         'where' => 
         array (
         ),
+        'as' => 'master-gg',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4762,28 +4720,30 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'mastergg.create' => 
+    'master-gg-show' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'mastergg/create',
+      'uri' => 'mastergg/show',
       'action' => 
       array (
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'auth',
+          2 => 'permission:view-master-gg',
         ),
-        'as' => 'mastergg.create',
-        'uses' => 'Modules\\MasterGg\\Http\\Controllers\\MasterGgController@create',
-        'controller' => 'Modules\\MasterGg\\Http\\Controllers\\MasterGgController@create',
+        'uses' => 'Modules\\MasterGg\\Http\\Controllers\\MasterGgController@show',
+        'controller' => 'Modules\\MasterGg\\Http\\Controllers\\MasterGgController@show',
         'namespace' => NULL,
-        'prefix' => '',
+        'prefix' => '/mastergg',
         'where' => 
         array (
         ),
+        'as' => 'master-gg-show',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4799,27 +4759,29 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'mastergg.store' => 
+    'master-gg-store' => 
     array (
       'methods' => 
       array (
         0 => 'POST',
       ),
-      'uri' => 'mastergg',
+      'uri' => 'mastergg/store',
       'action' => 
       array (
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'auth',
+          2 => 'permission:create-master-gg',
         ),
-        'as' => 'mastergg.store',
         'uses' => 'Modules\\MasterGg\\Http\\Controllers\\MasterGgController@store',
         'controller' => 'Modules\\MasterGg\\Http\\Controllers\\MasterGgController@store',
         'namespace' => NULL,
-        'prefix' => '',
+        'prefix' => '/mastergg',
         'where' => 
         array (
         ),
+        'as' => 'master-gg-store',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4835,102 +4797,29 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'mastergg.show' => 
+    'master-gg-update' => 
     array (
       'methods' => 
       array (
-        0 => 'GET',
-        1 => 'HEAD',
+        0 => 'POST',
       ),
-      'uri' => 'mastergg/{mastergg}',
+      'uri' => 'mastergg/update',
       'action' => 
       array (
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'auth',
+          2 => 'permission:edit-master-gg',
         ),
-        'as' => 'mastergg.show',
-        'uses' => 'Modules\\MasterGg\\Http\\Controllers\\MasterGgController@show',
-        'controller' => 'Modules\\MasterGg\\Http\\Controllers\\MasterGgController@show',
-        'namespace' => NULL,
-        'prefix' => '',
-        'where' => 
-        array (
-        ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'mastergg.edit' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'mastergg/{mastergg}/edit',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'web',
-        ),
-        'as' => 'mastergg.edit',
-        'uses' => 'Modules\\MasterGg\\Http\\Controllers\\MasterGgController@edit',
-        'controller' => 'Modules\\MasterGg\\Http\\Controllers\\MasterGgController@edit',
-        'namespace' => NULL,
-        'prefix' => '',
-        'where' => 
-        array (
-        ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'mastergg.update' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'PUT',
-        1 => 'PATCH',
-      ),
-      'uri' => 'mastergg/{mastergg}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'web',
-        ),
-        'as' => 'mastergg.update',
         'uses' => 'Modules\\MasterGg\\Http\\Controllers\\MasterGgController@update',
         'controller' => 'Modules\\MasterGg\\Http\\Controllers\\MasterGgController@update',
         'namespace' => NULL,
-        'prefix' => '',
+        'prefix' => '/mastergg',
         'where' => 
         array (
         ),
+        'as' => 'master-gg-update',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4946,27 +4835,29 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'mastergg.destroy' => 
+    'master-gg-destroy' => 
     array (
       'methods' => 
       array (
         0 => 'DELETE',
       ),
-      'uri' => 'mastergg/{mastergg}',
+      'uri' => 'mastergg/destroy/{id}',
       'action' => 
       array (
         'middleware' => 
         array (
           0 => 'web',
+          1 => 'auth',
+          2 => 'permission:delete-master-gg',
         ),
-        'as' => 'mastergg.destroy',
         'uses' => 'Modules\\MasterGg\\Http\\Controllers\\MasterGgController@destroy',
         'controller' => 'Modules\\MasterGg\\Http\\Controllers\\MasterGgController@destroy',
         'namespace' => NULL,
-        'prefix' => '',
+        'prefix' => '/mastergg',
         'where' => 
         array (
         ),
+        'as' => 'master-gg-destroy',
       ),
       'fallback' => false,
       'defaults' => 

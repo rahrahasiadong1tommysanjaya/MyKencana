@@ -3,9 +3,11 @@
 namespace Modules\MasterGg\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
+use DataTables;
 
 class MasterGgController extends Controller
 {
@@ -36,10 +38,15 @@ class MasterGgController extends Controller
     /**
      * Show the specified resource.
      */
-    public function show($id)
+    public function show(Request $request)
     {
-        return view('mastergg::show');
+        if ($request->ajax()) {
+            return DataTables::of(DB::select("CALL MasterGG_select()"))->toJson();
+        }
+
+        return abort(404);
     }
+
 
     /**
      * Show the form for editing the specified resource.

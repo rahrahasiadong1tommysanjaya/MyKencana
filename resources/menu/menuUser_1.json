@@ -18,11 +18,11 @@
                 "icon": "menu-icon tf-icons ti ti-database",
                 "submenu": [
                     {
-                        "id": 6,
-                        "menu": "Jenis Barang",
-                        "slug": "master-jenisbarang",
+                        "id": 7,
+                        "menu": "Group GL",
+                        "slug": "master-gg",
                         "parent_id": 2,
-                        "url": "masterjenisbarang"
+                        "url": "mastergg"
                     },
                     {
                         "id": 3,
@@ -32,11 +32,11 @@
                         "url": "mastercussup"
                     },
                     {
-                        "id": 4,
-                        "menu": "Users",
-                        "slug": "master-users",
+                        "id": 6,
+                        "menu": "Jenis Barang",
+                        "slug": "master-jenisbarang",
                         "parent_id": 2,
-                        "url": "masterusers"
+                        "url": "masterjenisbarang"
                     },
                     {
                         "id": 5,
@@ -44,23 +44,13 @@
                         "slug": "master-barang",
                         "parent_id": 2,
                         "url": "masterbarang"
-                    }
-                ]
-            },
-            {
-                "id": 7,
-                "menu": "Transaksi",
-                "slug": "transaksi",
-                "parent_id": null,
-                "url": "#",
-                "icon": "menu-icon tf-icons ti ti-garden-cart",
-                "submenu": [
+                    },
                     {
-                        "id": 8,
-                        "menu": "Order",
-                        "slug": "order",
-                        "parent_id": 7,
-                        "url": "order"
+                        "id": 4,
+                        "menu": "Users",
+                        "slug": "master-users",
+                        "parent_id": 2,
+                        "url": "masterusers"
                     }
                 ]
             }
