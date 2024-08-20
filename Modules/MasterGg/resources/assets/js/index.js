@@ -18,7 +18,7 @@ $(function () {
 
   // Users datatable
   if (dt_masterGG_table.length) {
-    var dt_barang = dt_masterGG_table.DataTable({
+    var dt_mastergg = dt_masterGG_table.DataTable({
       responsive: true,
       ajax: {
         url: route('master-gg-show')

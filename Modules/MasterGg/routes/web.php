@@ -26,6 +26,7 @@ Route::group(['middleware' => ['auth']], function () {
 
       Route::group(['middleware' => ['permission:create-master-gg']], function () {
           Route::post('/store', [MasterGgController::class, 'store'])->name('master-gg-store');
+          Route::get('/showSubGg', [MasterGgController::class, 'showSubGg'])->name('master-sub-gg-show');
       });
 
       Route::group(['middleware' => ['permission:edit-master-gg']], function () {

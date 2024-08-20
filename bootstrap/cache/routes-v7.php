@@ -32,7 +32,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::QNhjsZ2GdLq7WQa2',
+            '_route' => 'generated::wCupUOD7zpzwmRjt',
           ),
           1 => NULL,
           2 => 
@@ -52,7 +52,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::ng8dBoFa8PJXTtoy',
+            '_route' => 'generated::5HAKMOzNuQyF7nms',
           ),
           1 => NULL,
           2 => 
@@ -149,7 +149,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::59iHFlxwuQ9YgQT2',
+            '_route' => 'generated::m6B4hcIOuQdw5hru',
           ),
           1 => NULL,
           2 => 
@@ -807,6 +807,26 @@ app('router')->setCompiledRoutes(
           2 => 
           array (
             'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/mastergg/showSubGg' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'master-sub-gg-show',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
           ),
           3 => NULL,
           4 => false,
@@ -2537,7 +2557,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::QNhjsZ2GdLq7WQa2' => 
+    'generated::wCupUOD7zpzwmRjt' => 
     array (
       'methods' => 
       array (
@@ -2549,7 +2569,7 @@ app('router')->setCompiledRoutes(
       array (
         'uses' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@returnJavaScriptAsFile',
         'controller' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@returnJavaScriptAsFile',
-        'as' => 'generated::QNhjsZ2GdLq7WQa2',
+        'as' => 'generated::wCupUOD7zpzwmRjt',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2565,7 +2585,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::ng8dBoFa8PJXTtoy' => 
+    'generated::5HAKMOzNuQyF7nms' => 
     array (
       'methods' => 
       array (
@@ -2577,7 +2597,7 @@ app('router')->setCompiledRoutes(
       array (
         'uses' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@maps',
         'controller' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@maps',
-        'as' => 'generated::ng8dBoFa8PJXTtoy',
+        'as' => 'generated::5HAKMOzNuQyF7nms',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2757,7 +2777,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::59iHFlxwuQ9YgQT2' => 
+    'generated::m6B4hcIOuQdw5hru' => 
     array (
       'methods' => 
       array (
@@ -2775,8 +2795,8 @@ app('router')->setCompiledRoutes(
                     \\Illuminate\\Support\\Facades\\Event::dispatch(new \\Illuminate\\Foundation\\Events\\DiagnosingHealth);
 
                     return \\Illuminate\\Support\\Facades\\View::file(\'D:\\\\project-web\\\\MyKencana\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Configuration\'.\'/../resources/health-up.blade.php\');
-                }";s:5:"scope";s:54:"Illuminate\\Foundation\\Configuration\\ApplicationBuilder";s:4:"this";N;s:4:"self";s:32:"0000000000000f8c0000000000000000";}}',
-        'as' => 'generated::59iHFlxwuQ9YgQT2',
+                }";s:5:"scope";s:54:"Illuminate\\Foundation\\Configuration\\ApplicationBuilder";s:4:"this";N;s:4:"self";s:32:"0000000000000f8d0000000000000000";}}',
+        'as' => 'generated::m6B4hcIOuQdw5hru',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4782,6 +4802,45 @@ app('router')->setCompiledRoutes(
         array (
         ),
         'as' => 'master-gg-store',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'master-sub-gg-show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'mastergg/showSubGg',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+          2 => 'permission:create-master-gg',
+        ),
+        'uses' => 'Modules\\MasterGg\\Http\\Controllers\\MasterGgController@showSubGg',
+        'controller' => 'Modules\\MasterGg\\Http\\Controllers\\MasterGgController@showSubGg',
+        'namespace' => NULL,
+        'prefix' => '/mastergg',
+        'where' => 
+        array (
+        ),
+        'as' => 'master-sub-gg-show',
       ),
       'fallback' => false,
       'defaults' => 

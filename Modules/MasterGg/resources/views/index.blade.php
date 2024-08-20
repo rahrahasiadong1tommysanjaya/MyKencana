@@ -23,6 +23,7 @@
 
 @section('content')
     {{ Breadcrumbs::render() }}
+    @include('mastergg::modal.edit')
     <div class="card">
         <div class="card-header">
             <h5 class="card-title mb-0">Master GG</h5>

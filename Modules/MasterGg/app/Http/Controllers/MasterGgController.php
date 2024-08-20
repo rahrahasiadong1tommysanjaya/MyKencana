@@ -48,13 +48,28 @@ class MasterGgController extends Controller
     }
 
 
+    public function showSubGg (Request $request)
+    {
+      $id=$request->input('id');
+        if ($request->ajax()) {
+            return DataTables::of(DB::select("CALL MasterGG_select_sub('$id')"))->toJson();
+        }
+
+        return abort(404);
+    }
+
+
+
     /**
      * Show the form for editing the specified resource.
      */
     public function edit($id)
     {
-        return view('mastergg::edit');
+      if ($request->ajax()) {
+        return DataTables::of(DB::select("CALL MasterGG_select('$id')"))->toJson();
     }
+
+    return abort(404);    }
 
     /**
      * Update the specified resource in storage.
