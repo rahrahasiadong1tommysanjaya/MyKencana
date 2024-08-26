@@ -41,7 +41,21 @@ class MasterGgController extends Controller
     public function show(Request $request)
     {
         if ($request->ajax()) {
-            return DataTables::of(DB::select("CALL MasterGG_select()"))->toJson();
+            return DataTables::of(DB::select("CALL MasterGg_header_select()"))->toJson();
+        }
+
+        return abort(404);
+    }
+
+
+
+
+    public function showDetail(Request $request)
+    {
+        if ($request->ajax()) {
+            return DataTables::of(DB::select("CALL MasterGg_detail_select(?)",[
+                $request->input('gg_id')
+            ]))->toJson();
         }
 
         return abort(404);

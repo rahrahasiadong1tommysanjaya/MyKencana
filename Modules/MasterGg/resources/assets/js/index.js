@@ -7,7 +7,7 @@
 // Datatable (jquery)
 $(function () {
   // Variable declaration for table
-  var dt_masterGG_table = $('.listmasterGG');
+  var dt_masterGG_table = $('.listGroupGg');
 
   // ajax setup
   $.ajaxSetup({
@@ -76,7 +76,7 @@ $(function () {
           render: function (data, type, full, meta) {
             return `<div class="d-inline-block text-nowrap">
                     <button class="btn btn-sm btn-icon update-masterGG" data-id="${full['id']}" data-name="${full['ket']}"data-bs-toggle="modal"><i class="ti ti-device-floppy"></i></button>
-                    <button class="btn btn-sm btn-icon edit-masterGG" data-id="${full['id']}" data-name="${full['ket']}"data-bs-toggle="modal"><i class="ti ti-edit"></i></button>
+                    <button class="btn btn-sm btn-icon show-masterSubGG" data-id="${full['id']}" data-name="${full['ket']}"data-bs-toggle="modal"><i class="ti ti-edit"></i></button>
                     <button class="btn btn-sm btn-icon tambah-masterGG" data-id="${full['id']}" data-name="${full['ket']}"><i class="ti ti-trash"></i></button>
 
                     </div>
